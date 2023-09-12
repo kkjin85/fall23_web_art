@@ -1,7 +1,25 @@
 h1{
-    color: red;
+    color: rgba(23, 16, 161, 0.303);
+}
+
+h2{
+    color: rgb(62, 134, 110);
+    margin-top: 48px;
 }
 
 img{
     max-width: 100%;
+}
+
+body{
+    background-image: url("https://media4.giphy.com/media/qNpqSmKO4bn68/giphy.gif");
+    background-size: cover;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 12px;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 1.5;
+    background-color: #fafafa;
+    color: #333;
+
 }
