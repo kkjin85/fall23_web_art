@@ -1,0 +1,43 @@
+.box{
+    width: 10rem;
+    height: 10rem;
+    background-color: #ff7f50;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+p{
+    font-size: 2rem;
+    background-color: lightcyan;
+}
+
+a{
+    background-color: antiquewhite;
+}
+
+
+
+.em{
+    background-color: cornflowerblue;
+    padding: 1em;
+    text-align: center;
+}
+
+.rem{
+    background-color: crimson;
+    padding: 1rem;
+    text-align: center;
+}
+
+.parent{
+    width: 20rem;
+    height: 20rem;
+    background-color: darkcyan;
+}
+
+.child{
+    background-color: rgb(161, 152, 213);
+    width: 50%;
+    height: 50%;
+    border: 3px solid whitesmoke;
+}
