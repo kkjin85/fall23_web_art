@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+}
+
+.corner-message{
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 1rem;
+    background-image: url(https://media.tenor.com/_lva2oUq-9YAAAAC/corgi-donk.gif);
+    b
+    color: brown;
+    padding: 2rem;
+    font-size: 2rem;
+    box-shadow: -20px 20px 10px brown;
+
+}
+
+.welcome{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    /*background-color: darkgreen;*/
+    /*vw=viewport width*/
+    font-size: 6vw;
+    /*mix-blend-mode: color-dodge;*/
+   /*text-shadow: 10px 10px 10px gold;*/
+   text-shadow: 5px 5px green, 10px 10px 10px gold;
+   border: 20px dotted mediumaquamarine;
+}
+
+.clouds{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    max-width: 100%;
+    /*vh=viewport height*/
+    height: 100vh;
+    /*object fit determines how a video or image will fit in the space it occupies, and crops centered to the middle */
+    object-fit: cover;
+    object-position: top left;
+}
+
+.dawg{
+    width: 600px;
+    height: 800px;
+    object-fit: cover;
+    object-position: -100px;
+}
+
+p{
+    mix-blend-mode: overlay;
+}
