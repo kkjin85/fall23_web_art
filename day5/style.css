@@ -11,8 +11,15 @@ body{
     color: brown;
     padding: 1rem;
     font-size: 1.5rem;
-    box-shadow: -20px 20px 10px brown;
+    box-shadow: -20px 20px 10px mediumaquamarine;
 
+}
+
+.dawg{
+    width: 600px;
+    height: 800px;
+    object-fit: cover;
+    object-position: -100px;
 }
 
 .welcome{
@@ -43,14 +50,12 @@ body{
     object-position: top left;
 }
 
-.dawg{
-    width: 600px;
-    height: 800px;
-    object-fit: cover;
-    object-position: -100px;
-}
 
 p{
     color: white;
     /*mix-blend-mode: overlay;*/
+}
+
+.fig{
+    font-size: 30px;
 }
