@@ -1,4 +1,9 @@
-body{
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
     margin: 0;
 }
 
@@ -54,6 +59,7 @@ body{
 p{
     color: white;
     /*mix-blend-mode: overlay;*/
+    margin: 20px;
 }
 
 .fig{
