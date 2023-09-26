@@ -50,6 +50,7 @@
 body{
     background-color: rgb(136, 201, 72);
     font-family: 'Hahmlet', serif;
+    font-weight: 300;
 }
 
 .container{
@@ -72,11 +73,13 @@ body{
 .pedro1{
     left: 0;
     top: 66%;
+    margin-left: 0;
 }
 
 .pedro2{
     right: 0;
     top: 66%;
+    margin-right: 0;
 }
 
 .main{
@@ -113,13 +116,60 @@ margin-bottom: 24px;
     color:  rgb(25, 72, 48);
 }
 
-.work{
+.work_2{
     display: flex;
     gap: 1rem;
     padding-right: 1rem;
-    padding-bottom: 1rem;
+    padding-bottom: 3rem;
 }
 
 .lemans{
     width: 50%;
+}
+
+.lemans_1{
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: .5rem;
+}
+
+.lemans_8{
+    width: 100%;
+    padding-bottom: .5rem;
+}
+
+.title{
+    font-weight: 600;
+}
+
+.detail{
+    font-weight: 300;
+    font-size: 14px;
+    padding-bottom: 1rem;
+}
+
+.brancusi{
+    width: 100%;
+}
+
+.a{
+    width: 60%;
+    left: 200px;
+    padding-top: 1rem;
+}
+
+.b{
+    margin-top: 1rem;
+    padding-bottom: 3rem;
+}
+
+.bicyclekick{
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+}
+
+.milesdavis{
+    width: 100%;
+    padding-top: 1rem;
 }
