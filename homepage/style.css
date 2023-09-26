@@ -19,7 +19,7 @@
 .welcome{
     position: absolute;
     top: 0%;
-    left: 42%;
+    left: 40%;
     width: 20rem;
     height: 20rem;
     border-radius: 50%;
@@ -66,6 +66,7 @@
 h1{
     margin-top: 90vh ;
     text-align: center;
+    background-image: url(https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExenIzbW1tYTd5MGhqdHZtaGQ3NzRqMm4zNXZreGJhdjE4bjN0ZjUzaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/1wmdI5Nk5MjD0XIwdy/giphy.gif);
 }
 h2{
 margin-top: 48px;
@@ -74,7 +75,7 @@ margin-bottom: 24px;
 
 body{
     font-family: 'Hahmlet', serif;
-    max-width: 600px;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 12px;
     line-height: 1.5;
@@ -83,8 +84,9 @@ body{
 }
 
 .mepic{
-    max-width: 100%;
-    margin-bottom: 12px;
+    float: left;
+    max-width: 50%;
+    margin: 12px;
 }
 /* img{
     max-width: 100%;
