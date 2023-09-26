@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 .welcome{
@@ -105,4 +104,22 @@ margin-bottom: 24px;
 .bio{
     display: grid;
     align-items: center;
+}
+
+.divider{
+    margin-top: 48px;
+    background-image:url(https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExenIzbW1tYTd5MGhqdHZtaGQ3NzRqMm4zNXZreGJhdjE4bjN0ZjUzaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/1wmdI5Nk5MjD0XIwdy/giphy.gif);
+    background-size:contain;
+    color:  rgb(25, 72, 48);
+}
+
+.work{
+    display: flex;
+    gap: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+}
+
+.lemans{
+    width: 50%;
 }
