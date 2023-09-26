@@ -4,29 +4,17 @@
     box-sizing: border-box;
 }
 
-/* .box{
-    position: absolute;
-    top: 0%;
-    left: 50%;
-    transform: translate(-55%,0%);
-    width: 15rem;
-    height: 5rem;
-    background-color: #ff7f50;
-    border-radius: 20%;
-    margin: 20px;
-    text-align: center;
-} */
 .welcome{
     position: absolute;
     top: 0%;
-    left: 39%;
+    left: 43%;
     transform: translate(-50%);
     width: 20rem;
     height: 20rem;
     border-radius: 50%;
-    background-image: url(https://upload.wikimedia.org/wikipedia/commons/d/d3/Soccerball.svg);
+    background-image: url(https://web.archive.org/web/20091027054627if_/http://hk.geocities.com/northcotehk/images/soccer2.gif);
     background-size: contain;
-    color: black;
+    color: chocolate;
     font-size: 50px;
     font-weight: bolder;
     display: flex;
@@ -67,7 +55,7 @@ body{
 
 .container{
     position: absolute;
-    top: 841px;
+    top: 90%;
     left: 50%;
     transform: translate(-50%);
     width: 60%;
@@ -75,6 +63,21 @@ body{
     line-height: 1.5;
     background-color: rgb(25, 72, 48);
     color: azure;
+}
+
+.players{
+    position: fixed;
+    max-width: 100%;
+}
+
+.pedro1{
+    left: 0;
+    top: 66%;
+}
+
+.pedro2{
+    right: 0;
+    top: 66%;
 }
 
 .main{
