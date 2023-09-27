@@ -6,7 +6,7 @@
 .welcome{
     position: absolute;
     top: 0%;
-    left: 43%;
+    left: 40%;
     transform: translate(-50%);
     width: 20rem;
     height: 20rem;
@@ -153,8 +153,10 @@ margin-bottom: 24px;
 }
 
 .a{
-    width: 60%;
-    left: 200px;
+    position: relative;
+    width: 70%;
+    left: 50%;
+    transform: translate(-50%);
     padding-top: 1rem;
 }
 
@@ -172,4 +174,22 @@ margin-bottom: 24px;
 .milesdavis{
     width: 100%;
     padding-top: 1rem;
+}
+
+.doors{
+    width: 100%;
+    padding-top: 1rem;
+}
+
+.back_to_top{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    background-image: url(https://web.archive.org/web/20091027054627if_/http://hk.geocities.com/northcotehk/images/soccer2.gif);
+    background-size: contain;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
