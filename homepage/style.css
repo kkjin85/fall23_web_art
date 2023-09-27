@@ -70,6 +70,7 @@ body{
 .players{
     position: fixed;
     max-width: 100%;
+    z-index: +1;
 }
 
 .pedro1{
