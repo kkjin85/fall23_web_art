@@ -1,0 +1,95 @@
+*{
+    /* "CSS Reset" */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    /* position: fixed; */
+    /* background-color: blanchedalmond; */
+    /* width: 100%; */
+    /* border: .5rem solid palevioletred; */
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem 2rem;
+    background-color: black;
+    color: white;
+}
+
+header a{
+    color: white;
+}
+
+/* header > * {
+    outline: 2px solid green;
+    padding: .5rem;
+} */
+
+.logo{
+    font-size: 2rem;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 20%;
+    background-color: white;
+    padding: .25rem;
+    color: black;
+
+}
+
+.main-menu{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 1rem;
+}
+
+.main-menu a{
+    text-decoration: none;
+    transition: color .5s;
+}
+
+.main-menu a:hover{
+    color: cadetblue;
+}
+
+/* Main Block */
+/* images are inline element so it has some weird margin link thing, even though its not a margin */
+main{
+    max-width: 50rem;
+    margin: 2rem auto;
+}
+
+.page-title{
+    text-align: center;
+    padding: 4rem;
+    background-image: url(//picsum.photos/id/115/1920/720/);
+    color: white;
+}
+
+img{
+    display: block;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* gap: .5rem; */
+}
+
+.gallery img{
+    width: min(300px, 100%);
+    max-width: 600px;
+    flex-grow: 1;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem;
+    color: white;
+    background-color: black;
+}
